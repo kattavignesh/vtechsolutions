@@ -4,30 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V-Tech Solutions</title>
-    <!-- Link to the CSS file -->
-    <link rel="stylesheet" href="response.css">
     <link rel="shortcut icon" href="./favicon.jpg" type="image/svg+xml">
+    <link rel="stylesheet" href="response.css">
 </head>
 <body>
-  <div class="container">
-    <h1><strong>ORDER DETAILS</strong></h1>
-    <p>Hello! Welcome to V-Tech Solutions.</p><br>
-    <form target="_blank" action="https://formsubmit.co/vtechsolutionpvt@gmail.com" method="POST">
-      <div class="form-group">
-        <div class="form-row">
-          <div class="col">
-            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-          </div>
-          <div class="col">
-            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-          </div>
-        </div>
-      </div>
-      <div class="form-group">
-        <textarea placeholder="iD Num & Phone Num/Service Number/Your message" class="form-control" name="message" rows="2" required></textarea>
-      </div>
-      <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
-    </form>
-  </div>
+    <!-- Paytm Image Section -->
+    <div class="paytm">
+        <img src="images/paytmlogo.jpg" alt="Paytm Image">
+    </div>
+
+    <!-- Form Container -->
+    <div class="container">
+        <h1><strong>ORDER DETAILS</strong></h1>
+        <form action="https://formsubmit.co/vigneshviggi593@gmail.com" method="POST">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Quantity" class="form-control" name="Quantity" rows="1" required></textarea>
+                <textarea placeholder="PhoneNumber" class="form-control" name="PhoneNumber" rows="1" required></textarea>
+                <textarea placeholder="Paste Link / YourMessage" class="form-control" name="Link/Message" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <select id="serviceselect" class="form-control" name="Serviceselect">
+                    <option value="serviceselect">Select a Service</option>
+                    <option value="serviceselect" disabled><strong>----------INSTAGRAM SERVICES----------</strong></option>
+                    <option value="IG FOLLOWERS">INSTAGRAM FOLLOWERS [iD-IG01]&emsp;₹60</option>
+                    <option value="IG LIKES">INSTAGRAM LIKES [iD-IG02]&emsp;₹20</option>
+                    <option value="IG VIEWS">INSTAGRAM REEL/VIDEO VIEWS [iD-IG03]&emsp;₹15</option>
+                    <option value="serviceselect" disabled><strong>----------YOUTUBE SERVICES----------</strong></option>
+                    <option value="YT SUBS">YOUTUBE SUBSCRIBERS [iD-YT01]&emsp;₹750</option>
+                    <option value="YT LIKES">YOUTUBE LIKES [iD-YT02]&emsp;₹100</option>
+                    <option value="YT VIEWS">YOUTUBE VIEWS [iD-YT03]&emsp;₹130</option>
+                    <option value="YT WATCHTIME">YOUTUBE WATCHTIME [iD-YT04]&emsp;₹1850</option>
+                    <option value="serviceselect" disabled><strong>----------NETFLIX SERVICES----------</strong></option>
+                    <option value="NFLIX 100">NETFLIX [1-MONTH 1 DEVICE] [iD-NF01]&emsp;₹100</option>
+                    <option value="NFLIX 300">NEFLIX [1-MONTH 4 DEVICES][iD-NF02]&emsp;₹300</option>
+                    <option value="NFLIX 860">NEFLIX [1-YEAR 1 DEVICE] [iD-NF03]&emsp;₹860</option>
+                    <option value="NFLIX 1650">NEFLIX [1-YEAR 4 DEVICES] [iD-NF04]&emsp;₹1650</option>
+                    <option value="serviceselect" disabled><strong>----------AMAZON PRIME VIDEO----------</strong></option>
+                    <option value="APRIME 1M">AMAZON PRIME VIDEO [1-MONTH] [iD-PV01]&emsp;₹80</option>
+                    <option value="APRIME 6M">AMAZON PRIME VIDEO [6-MONTHS] [iD-PV02]&emsp;₹250</option>
+                    <option value="APRIME 1YR">AMAZON PRIME VIDEO [1-YEAR] [iD-PV03]&emsp;₹400</option>
+                    <option value="serviceselect" disabled><strong>----------DISNEY+ HOTSTAR----------</strong></option>
+                    <option value="HOTSTAR 6M">DISNEY+ HOTSTAR [6-MONTHS] [iD-HR01]&emsp;₹400</option>
+                    <option value="HOTSTAR 1YR">DISNEY+ HOTSTAR [1-YEAR] [iD-HR02]&emsp;₹650</option>
+                    <option value="serviceselect" disabled><strong>----------SPOTIFY PREMIUM----------</strong></option>
+                    <option value="SPOTIFY 1M">SPOTIFY PREMIUM [1-MONTH] [iD-SY01]&emsp;₹70</option>
+                    <option value="SPOTIFY 4M">SPOTIFY PREMIUM [4-MONTHS] [iD-SY02]&emsp;₹180</option>
+                    <option value="SPOTIFY 1YR">SPOTIFY PREMIUM [1-YEAR] [iD-SY03]&emsp;₹300</option>
+                    <option value="serviceselect" disabled><strong>----------YOUTUBE PREMIUM----------</strong></option>
+                    <option value="YTPM 1M">YOUTUBE PREMIUM [1-MONTH] [iD-YP01]&emsp;₹60</option>
+                    <option value="YTPM 4M">YOUTUBE PREMIUM [4-MONTHS] [iD-YP02]&emsp;₹220</option>
+                    <option value="YTPM 1YR">YOUTUBE PREMIUM [1-YEAR] [iD-YP03]&emsp;₹430</option>
+                    <option value="YTPM 1M FAMILY">YOUTUBE PREMIUM [FAMILY] [1-MONTH] [iD-YP04]&emsp;₹180</option>
+                    <option value="serviceselect" disabled><strong>----------CANVA/COURSERA/OFFICE365----------</strong></option>
+                    <option value="CANVA 1M">CANVA PRO [1-MONTH] [iD-CA01]&emsp;₹130</option>
+                    <option value="CANVA 1YR">CANVA PRO [1-YEAR] [iD-CA02]&emsp;₹550</option>
+                    <option value="COURSERA">COURSERA PREMIUM PLUS [1-YEAR] {ON YOUR MAIL} {WORTH-₹33,000} [iD-CSRA]&emsp;₹850</option>
+                    <option value="OFF365">MICROSOFT 365 {FAMILY} {5 INVITES ONLY} [1-MONTH] [iD-O365]&emsp;₹180</option>
+                    <option value="serviceselect" disabled><strong>----------BGMI/STEAM/WEBBUILDER/APPBUILDER----------</strong></option>
+                    <option value="BGMI">BGMI ACCOUNTS {PREMIUM ACCOUNTS} [iD-BGMI]&emsp;₹400</option>
+                    <option value="STEAM 1M">STEAM PC GAMES ACCOUNTS [1-MONTH] [iD-STEM]&emsp;₹140</option>
+                    <option value="WEBD">WEBSITE BUILDER [iD-WEBD]&emsp;₹2000</option>
+                    <option value="APPD">WEBSITE TO APP/APP BUILDER [iD-APPD]&emsp;₹400</option>
+
+
+
+                    <!-- Other options -->
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Enter UTR Payment Number (12 digits Number) " class="form-control" name="UTR Number" rows="1"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
